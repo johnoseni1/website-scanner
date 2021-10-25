@@ -5,7 +5,7 @@ load_dotenv()
 
 class Config:
 
-    MONGO_URI = os.environ.get('MONGO_URI')
+    MONGO_URI = os.environ.get('mongodb+srv://john:12345@cluster0.xfvn5.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')
     SECRET_KEY = os.environ.get('SECRET_KEY')
     # setting mail configs
     MAIL_SERVER = "smtp.googlemail.com"
